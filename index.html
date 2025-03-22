@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hilista - Premium Camping Tents</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="hls-navbar navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Hilista</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/terms.html">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/privacy.html">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hls-hero py-5 bg-light text-center">
+            <div class="container">
+                <h1 class="display-4">Adventure Awaits <br></h1>
+                <p class="lead">Premium camping tents for every outdoor expedition – from weekend getaways to extreme adventures.
+                </p>
+                <a href="#productslayout" class="btn btn-success btn-lg mt-3">Explore Tents</a>
+            </div>
+        </section>
+        <section class="hls-about py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2">
+                        <h2 class="mb-4">About Hilista</h2>
+                        <p class="lead mb-4">We're passionate about creating exceptional outdoor experiences through innovative tent design and premium materials.</p>
+                        <p>Founded by outdoor enthusiasts, Hilista combines traditional craftsmanship with modern technology to produce tents that exceed expectations. Our commitment to quality ensures that every adventure is supported by reliable shelter.</p>
+                        <p>With over a decade of experience in tent manufacturing, we understand the demands of nature and design our products to meet those challenges head-on.</p>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <img src="https://i.etsystatic.com/24174648/r/il/85a5d9/4367147568/il_794xN.4367147568_lb17.jpg" alt="Hilista workshop" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="productslayout" class="hls-featured py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Featured Tents</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="productsGrid">
+                    <!-- Products will be inserted here via JavaScript -->
+                </div>
+            </div>
+        </section>
+        <section class="hls-details py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Premium Tent Details</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <h5>All-Weather Protection</h5>
+                                <p>Waterproof ripstop nylon and sealed seams keep you dry in any conditions</p>
+                            </li>
+                            <li class="mb-3">
+                                <h5>Easy Setup</h5>
+                                <p>Color-coded poles and intuitive design for quick 10-minute assembly</p>
+                            </li>
+                            <li class="mb-3">
+                                <h5>Durability</h5>
+                                <p>Reinforced stress points and heavy-duty materials built to last</p>
+                            </li>
+                            <li class="mb-3">
+                                <h5>Ventilation</h5>
+                                <p>Strategic mesh panels and vents for optimal airflow</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://i.etsystatic.com/56363779/r/il/c3adde/6561261505/il_794xN.6561261505_gbo7.jpg" alt="Tent construction details" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="hls-faq py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq1">
+                                What materials are used in your tents?
+                            </button>
+                        </h3>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Our tents are crafted from high-quality materials including waterproof ripstop nylon, durable aluminum poles, and weather-resistant coatings to ensure protection in all conditions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq2">
+                                How do I care for my tent?
+                            </button>
+                        </h3>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Always dry your tent before storage, clean with mild soap, avoid storing in direct sunlight, and regularly check seams and zippers for maintenance.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq3">
+                                Do you offer international shipping?
+                            </button>
+                        </h3>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we offer worldwide shipping with tracking on all tent orders.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <div class="hls-image-text container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Discover Our Season-End Camping Gear Sale!</h2>
+                    <p>More than just tents—we provide your home away from home. Our designs are tested in extreme conditions and crafted for 
+                    ultimate comfort and reliability in the wilderness.</p>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <img src="https://i.etsystatic.com/24174648/r/il/1ca1b1/4414538095/il_794xN.4414538095_56es.jpg"
+                        alt="Premium Camping Tent" class="img-fluid rounded" class="img-fluid main-image rounded">
+                    <img src="./assets/sale-badge.png" alt="" class="img-fluid overlay-image">
+                </div>
+            </div>
+        </div>
+
+        <section class="hls-testimonials py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">What Our Adventurers Say</h2>
+                <div class="row g-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="card-text">"Survived a week-long mountain expedition in this tent. Absolutely weatherproof and incredibly easy to set up! The build quality exceeded my expectations."</p>
+                                <footer class="d-flex align-items-center mt-3">
+                                   
+                                    <div>
+                                        <h6 class="mb-0">Joshua Hazle</h6>
+                                        <small class="text-muted">Mountain Explorer</small>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="card-text">"The quality and durability of Hilista tents are unmatched. Perfect for family camping trips. We've used it in both summer and winter conditions."</p>
+                                <footer class="d-flex align-items-center mt-3">
+                                   
+                                    <div>
+                                        <h6 class="mb-0">Sarah Miller</h6>
+                                        <small class="text-muted">Family Camper</small>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="card-text">"As a professional guide, I've tested many tents. Hilista's attention to detail and innovative features make it stand out from the competition."</p>
+                                <footer class="d-flex align-items-center mt-3">
+                                    
+                                    <div>
+                                        <h6 class="mb-0">Mike Thompson</h6>
+                                        <small class="text-muted">Professional Guide</small>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="hls-footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>Hilista</h3>
+                    <p>Your trusted partner in outdoor adventures.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Contact</h3>
+                    <p>Email: info@Hilista.com</p>
+                    <p>Tel: (601) 732-3593
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Follow Us</h3>
+                    <div class="d-flex gap-3">
+                        <a href="https://www.instagram.com/" class="text-light">Instagram</a>
+                        <a href="https://www.pinterest.com/" class="text-light">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-4 mt-4">
+                <p class="text-center mb-0">&copy; 2024 Hilista. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script  src="./js/main.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
