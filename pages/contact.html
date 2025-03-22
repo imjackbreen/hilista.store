@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Hilista</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hls-contact {
+            padding: 100px 0 50px;
+            background-color: #f9f9f9;
+        }
+
+        .hls-contact h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .hls-contact-container {
+            margin-top: 40px;
+        }
+
+        .hls-form-group {
+            margin-bottom: 20px;
+        }
+
+        .hls-form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .hls-contact-submit-btn {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .hls-contact-submit-btn:hover {
+            background-color: #555;
+        }
+
+        .hls-contact-info h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .hls-contact-method {
+            margin-bottom: 30px;
+        }
+
+        .hls-contact-method h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .hls-social-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .hls-social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="hls-navbar navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand">Hilista</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="terms.html">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hls-contact">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="text-center">Fill out the form below or reach out through
+                    any of our contact methods.</p>
+
+                <div class="hls-contact-container row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h2 class="card-title mb-4">Send Us a Message</h2>
+                                <form id="contactForm">
+                                    <div class="hls-form-group mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" id="name" name="name" class="form-control">
+                                    </div>
+
+                                    <div class="hls-form-group mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" id="email" name="email" class="form-control">
+                                    </div>
+
+                                    <div class="hls-form-group mb-3">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                    </div>
+
+                                    <div class="hls-form-group mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea id="message" name="message" class="form-control" rows="5"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="hls-contact-submit-btn btn btn-dark">Send
+                                        Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body hls-contact-info">
+                                <h2 class="card-title mb-4">Contact Information</h2>
+
+                                <div class="hls-contact-method">
+                                    <h3>Address</h3>
+                                    <p class="mb-1">1041 41st Hwy S</p>
+                                    <p class="mb-1">Barnesville, Georgia(GA), </p>
+                                    <p>30204</p>
+                                </div>
+
+                                <div class="hls-contact-method">
+                                    <h3>Email & Phone</h3>
+                                    <p class="mb-1">Email: support@Hilista.site</p>
+                                    <p>Customer Service: (731) 286-2466</p>
+                                </div>
+
+                                <!-- <div class="hls-contact-method">
+                                    <h3>Business Hours</h3>
+                                    <p class="mb-1">Monday - Friday: 9am - 5pm EST</p>
+                                    <p class="mb-1">Saturday: 10am - 3pm EST</p>
+                                    <p>Sunday: Closed</p>
+                                </div> -->
+
+                                <div class="hls-contact-method">
+                                    <h3>Follow Us</h3>
+                                    <div class="hls-social-links">
+                                        <a href="https://www.instagram.com/" class="me-2"><i
+                                                class="bi bi-instagram"></i> Instagram</a>
+                                        <a href="https://www.pinterest.com/" class="me-2"><i
+                                                class="bi bi-pinterest"></i> Pinterest</a>
+                                        <a href="https://www.facebook.com/" class="me-2"><i class="bi bi-facebook"></i>
+                                            Facebook</a>
+                                        <a href="https://www.X.com/" class="me-2"><i class="bi bi-twitter-x"></i> X</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hilista</h3>
+                    <p>Crafting beauty for your space</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@Hilista.site</p>
+                    <p>Tel: (731) 286-2466</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://www.pinterest.com/">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hilista. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Handle contact form submission
+        document.addEventListener('DOMContentLoaded', function () {
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    // In a real application, you would send the form data to your server
+                    // For now, we'll just show an alert
+                    alert('Thank you for your message! We will get back to you soon.');
+                    contactForm.reset();
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
